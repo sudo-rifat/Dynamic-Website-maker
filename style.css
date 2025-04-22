@@ -1,0 +1,88 @@
+.container{
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container > h1{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+
+
+} 
+
+
+
+.box{
+    /* width: 100%; */
+    /* height: 121px; */
+    background-color: rgb(24, 23, 23);
+    padding: 8px 10px;
+    display: flex;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+
+}
+
+.thumbnail{
+    height: 113px;
+    width: 200px;
+    box-sizing: border-box;
+    position: relative;
+    
+    /* border: 1px solid white; */
+}
+
+.thumbnail .image{
+    height: 113px;
+    width: 200px;
+    /* width: 100%; */
+    border-radius: 5px;
+    
+}
+
+
+.thumbnail .duration{
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    border-radius: 5px;
+    color: transparent;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    padding:  2px 5px 3px 5px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text .title{
+    color: white;
+
+}
+
+.text .undertitle{
+    color: rgb(170, 170, 170);
+    line-height: 3;
+    font-size: 12px;
+}
